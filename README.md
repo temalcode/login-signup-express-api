@@ -8,7 +8,7 @@ Getting started
 
 Start the server
 
-`npm run `
+`npm run start`
 
 Signup
 

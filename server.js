@@ -61,11 +61,6 @@ app.post('/login', async function (req, res) {
     res.status(200).send('Logged in successfully!')
 })
 
-//update user
-app.put('/update:username', async function(req, res){
-    userSh.updateOne()
-})
-
 
 //listen
 app.listen(port, () => console.log('server is running'))
